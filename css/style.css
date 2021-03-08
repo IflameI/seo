@@ -90,6 +90,10 @@ h6 {
 	font-size: inherit;
 }
 
+* {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: #000;
 	font-size: 14px;
@@ -2023,5 +2027,104 @@ textarea.input {
 @media (max-width: 991px) {
 	.body-services__button-wrapper {
 		text-align: center;
+	}
+}
+
+.services-slider-body {
+	position: relative;
+}
+
+.slick-track {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+
+.services-slider-body .slick-arrow {
+	position: absolute;
+	bottom: -7%;
+	z-index: 10;
+	font-size: 0;
+	width: 27px;
+	height: 53px;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+@media (max-width: 510px) {
+	.services-slider-body .slick-arrow {
+		width: 20px;
+		height: 20px;
+		bottom: -1%;
+	}
+}
+
+.services-slider-body .slick-arrow.slick-prev {
+	left: 0;
+	background: url("../img/main/left-arrow.png") 0 0/100% no-repeat;
+}
+
+.services-slider-body .slick-arrow.slick-next {
+	right: 0;
+	background: url("../img/main/right-arrow.png") 0 0/100% no-repeat;
+}
+
+@media (max-width: 991px) {
+	.nav__list {
+		display: none;
+	}
+}
+
+.nav__list-overlay {
+	display: none;
+}
+@media (max-width: 991px) {
+	.nav__list-overlay {
+		display: block;
+		text-align: left;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding-top: 170px;
+	}
+}
+@media (max-width: 991px) and (max-width: 991px) {
+	.nav__list-overlay {
+		padding-top: 90px;
+	}
+}
+@media (max-width: 991px) {
+	.nav__list-overlay li {
+		margin-bottom: 50px;
+		max-width: 100%;
+	}
+	.nav__list-overlay li a {
+		color: #ffffff;
+		font-size: 26px;
+		font-weight: 800;
+	}
+}
+@media (max-width: 991px) and (min-width: 1640px) {
+	.nav__list-overlay li a:hover {
+		text-decoration: underline;
+	}
+}
+@media (max-width: 991px) {
+	.nav__list-overlay li:last-child {
+		margin-bottom: 150px;
+	}
+}
+@media (max-width: 991px) and (max-width: 991px) {
+	.nav__list-overlay li:last-child {
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 991px) {
+	.services__page {
+		display: none;
 	}
 }

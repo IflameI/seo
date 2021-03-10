@@ -1246,6 +1246,11 @@ textarea.input {
 .benefits__title {
 	margin-bottom: 30px;
 }
+@media (max-height: 800px) {
+	.benefits__title {
+		margin-bottom: 10px;
+	}
+}
 
 .slider-benefits__row {
 	display: -webkit-box;
@@ -1261,6 +1266,11 @@ textarea.input {
 	    -ms-flex: 0 1 100%;
 	        flex: 0 1 100%;
 	margin-bottom: 20px;
+}
+@media (max-height: 800px) {
+	.slider-benefits__column {
+		margin-bottom: 10px;
+	}
 }
 
 .slider-benifits__subitem {
@@ -2150,6 +2160,16 @@ textarea.input {
 		padding-top: 150px;
 	}
 }
+@media (max-height: 960px) {
+	.page__pagination li {
+		margin-bottom: 130px;
+	}
+}
+@media (max-height: 900px) {
+	.page__pagination li {
+		margin-bottom: 119px;
+	}
+}
 @media (max-height: 740px) {
 	.page__pagination li {
 		margin-bottom: 109px;
@@ -2168,11 +2188,6 @@ textarea.input {
 @media (max-height: 595px) {
 	.page__pagination li {
 		margin-bottom: 79px;
-	}
-}
-@media (max-height: 960px) {
-	.page__pagination li {
-		margin-bottom: 130px;
 	}
 }
 
@@ -2209,7 +2224,7 @@ textarea.input {
 
 @media (max-height: 800px) {
 	.client__item {
-		height: 180px;
+		height: 165px;
 	}
 }
 

@@ -849,6 +849,16 @@ textarea.input {
 	padding-left: 29px;
 	left: -9.9px;
 }
+@media (max-height: 960px) {
+	.aside__bottom {
+		top: 0px;
+	}
+}
+@media (max-height: 900px) {
+	.aside__bottom {
+		top: -50px;
+	}
+}
 .aside__bottom:after {
 	content: "";
 	width: 71px;

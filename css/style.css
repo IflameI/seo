@@ -1313,6 +1313,11 @@ textarea.input {
 		-webkit-line-clamp: unset;
 	}
 }
+@media (max-height: 800px) {
+	.slider-benefits__text {
+		margin-bottom: 40px;
+	}
+}
 @media (max-width: 450px) {
 	.slider-benefits__text {
 		font-size: 14px;

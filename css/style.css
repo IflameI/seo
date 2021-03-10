@@ -1265,9 +1265,9 @@ textarea.input {
 
 .slider-benifits__subitem {
 	background: #fff;
-	padding: 40px;
+	padding: 30px;
 	border: 1px solid #eee;
-	min-height: 320px;
+	min-height: 300px;
 }
 @media (max-width: 440px) {
 	.slider-benifits__subitem {
@@ -1449,6 +1449,12 @@ textarea.input {
 		padding: 30px;
 	}
 }
+@media (max-height: 800px) {
+	.column-form__item {
+		padding: 30px 50px 50px 50px;
+		max-height: 640px;
+	}
+}
 
 .column-form__title {
 	color: #ffffff;
@@ -1467,6 +1473,11 @@ textarea.input {
 @media (max-width: 991px) {
 	.column-form__suptitle {
 		margin-bottom: 22px;
+	}
+}
+@media (max-height: 800px) {
+	.column-form__suptitle {
+		margin-bottom: 15px;
 	}
 }
 
@@ -1540,6 +1551,11 @@ textarea.input {
 @media (max-width: 1075px) {
 	.contact__map {
 		height: 392px;
+	}
+}
+@media (max-height: 800px) {
+	.contact__map {
+		height: 369px;
 	}
 }
 
@@ -2154,6 +2170,11 @@ textarea.input {
 		margin-bottom: 79px;
 	}
 }
+@media (max-height: 1000px) {
+	.page__pagination li {
+		margin-bottom: 130px;
+	}
+}
 
 @media (max-height: 800px) {
 	.method__column {
@@ -2203,7 +2224,7 @@ textarea.input {
 
 @media (max-height: 800px) {
 	.contact__title {
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 	}
 }
 

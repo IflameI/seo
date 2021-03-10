@@ -801,7 +801,7 @@ textarea.input {
 	font-weight: 800;
 	cursor: pointer;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
 	.page__pagination li {
 		margin-bottom: 119px;
 	}
@@ -1265,9 +1265,9 @@ textarea.input {
 
 .slider-benifits__subitem {
 	background: #fff;
-	padding: 50px;
+	padding: 40px;
 	border: 1px solid #eee;
-	min-height: 340px;
+	min-height: 320px;
 }
 @media (max-width: 440px) {
 	.slider-benifits__subitem {
@@ -2152,5 +2152,68 @@ textarea.input {
 @media (max-height: 595px) {
 	.page__pagination li {
 		margin-bottom: 79px;
+	}
+}
+
+@media (max-height: 800px) {
+	.method__column {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-height: 800px) {
+	.method__maintitle {
+		margin-bottom: 35px;
+	}
+}
+
+@media (max-height: 800px) {
+	.method__step {
+		position: absolute;
+		right: 70px;
+		bottom: -50px;
+		font-family: "Montserrat";
+		font-size: 170px;
+		color: #f4f4f4;
+		z-index: -1;
+		font-weight: 900;
+	}
+}
+
+@media (max-height: 800px) {
+	.client__title {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-height: 800px) {
+	.client__item {
+		height: 180px;
+	}
+}
+
+@media (max-height: 800px) {
+	.slider-benifits__subitem {
+		background: #fff;
+		padding: 20px 30px 10px 30px;
+		border: 1px solid #eee;
+		min-height: 270px;
+	}
+}
+
+@media (max-height: 800px) {
+	.contact__title {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-height: 800px) {
+	.screen__column {
+		padding-bottom: 190px;
+	}
+}
+@media (max-height: 750px) {
+	.screen__column {
+		padding-bottom: 0;
 	}
 }

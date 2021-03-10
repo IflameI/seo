@@ -618,11 +618,11 @@ textarea.input {
 }
 
 .screen__content {
-	padding: 70px 25px 25px 0px;
+	padding: 0px 25px 25px 0px;
 }
 @media (max-width: 1640px) {
 	.screen__content {
-		padding: 70px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
 	}
 }
 
@@ -2126,5 +2126,31 @@ textarea.input {
 @media (max-width: 991px) {
 	.services__page {
 		display: none;
+	}
+}
+
+@media (max-height: 800px) {
+	.aside__content {
+		padding-top: 150px;
+	}
+}
+@media (max-height: 740px) {
+	.page__pagination li {
+		margin-bottom: 109px;
+	}
+}
+@media (max-height: 690px) {
+	.page__pagination li {
+		margin-bottom: 99px;
+	}
+}
+@media (max-height: 640px) {
+	.page__pagination li {
+		margin-bottom: 89px;
+	}
+}
+@media (max-height: 595px) {
+	.page__pagination li {
+		margin-bottom: 79px;
 	}
 }

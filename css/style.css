@@ -1464,11 +1464,6 @@ textarea.input {
 	padding: 50px;
 	max-height: 690px;
 }
-@media (max-width: 991px) {
-	.column-form__item {
-		max-height: unset;
-	}
-}
 @media (max-width: 520px) {
 	.column-form__item {
 		padding: 30px;
@@ -1478,6 +1473,11 @@ textarea.input {
 	.column-form__item {
 		padding: 30px 50px 50px 50px;
 		max-height: 640px;
+	}
+}
+@media (max-width: 991px) {
+	.column-form__item {
+		max-height: unset;
 	}
 }
 
@@ -1581,6 +1581,11 @@ textarea.input {
 @media (max-height: 800px) {
 	.contact__map {
 		height: 369px;
+	}
+}
+@media (max-width: 1070px) {
+	.contact__map {
+		height: 346px;
 	}
 }
 
